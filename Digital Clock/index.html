@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<main class="bg-gray-500 flex justify-center items-center w-full h-[100vh]">
+    <div class="watch flex flex-col gap-4 justify-center items-center">
+        <h1 class="text-4xl font-bold">Digital Clock</h1>
+        <div class="flex items-center gap-2 mt-5">
+            <div class="hrs w-[10rem] h-[13rem] bg-white rounded-2xl flex flex-col justify-center items-center drop-shadow-xl">
+                    <span class="text-6xl text-gray-600" id="hrs">00</span>
+                    <span class="text-3xl font-semibold text-gray-600" type="text">Hours</span>
+            </div>
+            <div class="min w-[10rem] h-[13rem] bg-white rounded-2xl flex flex-col justify-center items-center drop-shadow-xl">
+                    <span class="text-6xl text-gray-600" id="min">00</span>
+                    <span class="text-3xl font-semibold text-gray-600" type="text">Minutes</span>
+            </div>
+            <div class="sec w-[10rem] h-[13rem] bg-white rounded-2xl flex flex-col justify-center items-center drop-shadow-xl">
+                    <span class="text-6xl text-gray-600" id="sec">00</span>
+                    <span class="text-3xl font-semibold text-gray-600" type="text">Seconds</span>
+            </div>
+            <div class="w-[4rem] h-[4rem] bg-white rounded-xl flex justify-center items-center drop-shadow-xl" >
+                <span class="font-semibold text-black" id="am-pm">PM</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
